@@ -16,6 +16,12 @@ namespace StackQueueProblem
             stacksProblem.push(30);
             stacksProblem.push(56);
             stacksProblem.display();
+            stacksProblem.peek();
+            stacksProblem.display();
+            stacksProblem.pop();
+            stacksProblem.display();
+            stacksProblem.IsEmpty();
+            stacksProblem.display();
 
         }
     }
