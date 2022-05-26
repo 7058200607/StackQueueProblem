@@ -20,7 +20,7 @@ namespace StackQueueProblem
             stacksProblem.display();
             stacksProblem.pop();
             stacksProblem.display();
-            stacksProblem.IsEmpty();
+          //  stacksProblem.IsEmpty();
             stacksProblem.display();
             
             Console.WriteLine("Do Queue Operation");
@@ -28,7 +28,14 @@ namespace StackQueueProblem
             linklist.EnQueue(56);
             linklist.EnQueue(30);
             linklist.EnQueue(70);
-            linklist.display(); 
+            linklist.display();
+            linklist.DeQueue(56);
+            linklist.display();
+            linklist.DeQueue(30);
+            linklist.display();
+            linklist.DeQueue(70);
+          
+
         }
     }
 }
